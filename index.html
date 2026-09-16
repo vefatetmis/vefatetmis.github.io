@@ -3,8 +3,12 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Kamil</title>
-<meta name="description" content="Tek parmakla oynanan bir kaçış oyunu. Sürüden kaç, düşenleri topla, ne kadar dayandığına bak." />
+<title>Bronze Cloud</title>
+<meta name="description" content="Bronze Cloud, tek parmakla oynanan mobil oyunlar yapan bağımsız bir stüdyo. İlk oyunu Kamil, Google Play'de." />
+<meta property="og:title" content="Bronze Cloud" />
+<meta property="og:description" content="Tek parmakla oynanan mobil oyunlar. İlk oyun: Kamil." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://bronzecloud.studio/" />
 <style>
   :root {
     --ground: #0a0d11;
@@ -12,7 +16,9 @@
     --text: #f2f4ef;
     --muted: #9299a3;
     --subtle: #aeb4bd;
-    --accent: #c8ff46;
+    /* Marka rengi ikondan geliyor: gövde mavisi #0054e4, motor
+       camgöbeği #30d8fc. Eski yeşil (#c8ff46) bırakıldı. */
+    --accent: #30d8fc;
     --divider: rgba(255, 255, 255, 0.11);
   }
   * { box-sizing: border-box; }
@@ -24,65 +30,91 @@
     line-height: 1.6;
     display: flex;
     justify-content: center;
-    padding: 48px 20px 72px;
+    padding-block: 56px 72px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   main { width: 100%; max-width: 640px; }
+  .mark {
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 18px;
+    font-weight: 600;
+  }
   h1 {
-    margin: 0 0 6px;
-    font-size: clamp(38px, 9vw, 60px);
+    margin: 0 0 8px;
+    font-size: clamp(34px, 8vw, 52px);
     letter-spacing: -0.02em;
-    line-height: 1;
+    line-height: 1.04;
   }
-  .lede { margin: 0 0 32px; color: var(--subtle); font-size: 19px; max-width: 46ch; }
-  .cta {
-    display: inline-block;
-    background: var(--accent);
-    color: #10160a;
-    font-weight: 650;
-    text-decoration: none;
-    padding: 14px 28px;
-    border-radius: 999px;
-  }
-  .cta:hover { filter: brightness(1.08); }
+  .lede { margin: 0 0 40px; color: var(--subtle); font-size: 19px; max-width: 46ch; }
   h2 {
-    margin: 44px 0 10px;
+    margin: 44px 0 14px;
     font-size: 15px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--muted);
     font-weight: 600;
   }
-  ul { margin: 0; padding-left: 20px; color: var(--subtle); }
-  li { margin-bottom: 6px; }
+  .game {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: var(--surface);
+    border: 1px solid var(--divider);
+    border-radius: 18px;
+    padding: 24px 26px;
+  }
+  .game:hover { border-color: rgba(48, 216, 252, 0.45); }
+  .game h3 { margin: 0 0 4px; font-size: 26px; letter-spacing: -0.01em; }
+  .game p { margin: 0 0 14px; color: var(--subtle); }
+  .game .meta { margin: 0; font-size: 14px; color: var(--muted); }
+  .arrow { color: var(--accent); font-weight: 600; }
+  dl { margin: 0; display: grid; grid-template-columns: 110px 1fr; gap: 8px 16px; }
+  dt { color: var(--muted); font-size: 14px; }
+  dd { margin: 0; }
+  dd a { color: var(--subtle); }
   footer {
-    margin-top: 48px;
+    margin-top: 52px;
     padding-top: 20px;
     border-top: 1px solid var(--divider);
     color: var(--muted);
     font-size: 14px;
   }
   footer a { color: var(--subtle); }
+  @media (max-width: 460px) {
+    dl { grid-template-columns: 1fr; gap: 2px; }
+    dt { margin-top: 10px; }
+  }
 </style>
 </head>
 <body>
 <main>
-  <h1>Kamil</h1>
-  <p class="lede">Tek parmakla oynanan bir kaçış oyunu. Sürüden kaç, düşenleri topla, ne kadar dayandığına bak. Saldıramazsın, yalnızca hayatta kalırsın.</p>
+  <p class="mark">Bronze Cloud</p>
+  <h1>Tek parmakla oynanan oyunlar</h1>
+  <p class="lede">Küçük bir bağımsız stüdyo. Karmaşık kumandası olmayan, bir elle oynanan, hemen anlaşılan mobil oyunlar yapıyoruz.</p>
 
-  <a class="cta" href="https://play.google.com/store/apps/details?id=com.bronzecloud.kamil">Google Play'de indir</a>
+  <h2>Oyunlar</h2>
+  <a class="game" href="/kamil.html">
+    <h3>Kamil <span class="arrow">&rarr;</span></h3>
+    <p>Sürüden kaç, düşenleri topla, ne kadar dayandığına bak. Saldıramazsın, yalnızca hayatta kalırsın.</p>
+    <p class="meta">Android &middot; Google Play'de yayında &middot; Sekiz dil</p>
+  </a>
 
-  <h2>Oyun</h2>
-  <ul>
-    <li>On güç, her biri beş seviye.</li>
-    <li>Sekiz gemi. Avantaj geminin değil senin: istediğin renkle istediğin avantajı kullan.</li>
-    <li>Altı patron. Hepsini yenince ikişerli gelmeye başlıyorlar.</li>
-    <li>Sekiz dil, aydınlık ve koyu tema.</li>
-    <li>Hesap gerekmez, kayıt cihazında kalır.</li>
-  </ul>
+  <h2>İletişim</h2>
+  <dl>
+    <dt>Genel</dt>
+    <dd><a href="mailto:iletisim@bronzecloud.studio">iletisim@bronzecloud.studio</a></dd>
+    <dt>Oyuncu desteği</dt>
+    <dd><a href="mailto:destek@bronzecloud.studio">destek@bronzecloud.studio</a></dd>
+    <dt>Basın</dt>
+    <dd><a href="mailto:press@bronzecloud.studio">press@bronzecloud.studio</a></dd>
+  </dl>
 
   <footer>
-    <p>Bronze Cloud Studios &middot; <a href="mailto:bilalvefabulut@gmail.com">bilalvefabulut@gmail.com</a></p>
-    <p><a href="/privacy.html">Gizlilik politikası / Privacy policy</a></p>
+    <p>Bronze Cloud &middot; <a href="/privacy.html">Gizlilik politikası / Privacy policy</a></p>
   </footer>
 </main>
 </body>
