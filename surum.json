@@ -1,63 +1,63 @@
 {
   "_aciklama": "Oyun acilista bunu okur. Her yayinda kod, ad ve notlar guncellenmeli.",
-  "kod": 8,
-  "ad": "1.6.0",
+  "kod": 9,
+  "ad": "1.7.0",
   "notlar": {
     "tr": [
-      "Joystick ile oynama: boyutunu, hassasiyetini ve yerini sen seç",
-      "Yeni görünüm: lacivert uzay, gezegenler, yenilenen menü ve ayarlar",
-      "Arayüzün rengi artık kuşandığın gemiden geliyor",
-      "Geri tuşu baştan düzenlendi, çıkarken onay soruluyor",
-      "Ateş izi uzayınca artık kopmuyor"
+      "Boss'lar yeniden çizildi, Kamil artık arkasında mavi bir iz bırakıyor",
+      "Uyarılar baştan tasarlandı: daha net ve göz yormuyor",
+      "Aynı güç artık arka arkaya gelmiyor",
+      "Geri tuşuyla çıkarken yaşanan çökme giderildi",
+      "Reklamdan önce Kamil kısa bir yakıt ya da tamir molası veriyor"
     ],
     "en": [
-      "Joystick controls: pick its size, sensitivity and position",
-      "New look: navy space, planets, redesigned menu and settings",
-      "The interface now takes its color from your equipped ship",
-      "Back button reworked, the game asks before quitting",
-      "The fire trail no longer breaks when it gets long"
+      "Bosses redrawn, and Kamil now leaves a blue trail behind",
+      "Warnings redesigned: clearer and easier on the eyes",
+      "The same power no longer drops several times in a row",
+      "Fixed a crash when leaving the game with the back button",
+      "Before an ad, Kamil now takes a short fuel or repair break"
     ],
     "de": [
-      "Joystick-Steuerung: Größe, Empfindlichkeit und Position frei wählbar",
-      "Neuer Look: dunkelblaues All, Planeten, neues Menü und Einstellungen",
-      "Die Oberfläche übernimmt jetzt die Farbe deines Schiffs",
-      "Zurück-Taste überarbeitet, das Spiel fragt vor dem Beenden nach",
-      "Die Feuerspur reißt nicht mehr ab, wenn sie lang wird"
+      "Bosse neu gezeichnet, Kamil zieht jetzt eine blaue Spur hinter sich her",
+      "Warnungen neu gestaltet: klarer und schonender für die Augen",
+      "Dieselbe Kraft kommt nicht mehr mehrmals hintereinander",
+      "Absturz beim Verlassen mit der Zurück-Taste behoben",
+      "Vor einer Werbung legt Kamil kurz eine Tank- oder Reparaturpause ein"
     ],
     "fr": [
-      "Contrôle au joystick : taille, sensibilité et position au choix",
-      "Nouveau style : espace bleu nuit, planètes, menu et réglages repensés",
-      "L'interface prend la couleur de ton vaisseau",
-      "Bouton retour revu, le jeu demande confirmation avant de quitter",
-      "La traînée de feu ne se coupe plus quand elle s'allonge"
+      "Boss redessinés, et Kamil laisse maintenant une traînée bleue derrière lui",
+      "Alertes repensées : plus claires et plus douces pour les yeux",
+      "Le même pouvoir ne tombe plus plusieurs fois de suite",
+      "Correction d'un plantage en quittant le jeu avec le bouton retour",
+      "Avant une pub, Kamil fait une courte pause carburant ou réparation"
     ],
     "es": [
-      "Control con joystick: elige tamaño, sensibilidad y posición",
-      "Nuevo aspecto: espacio azul marino, planetas, menú y ajustes renovados",
-      "La interfaz toma el color de tu nave equipada",
-      "Botón atrás rehecho, el juego pregunta antes de salir",
-      "La estela de fuego ya no se corta cuando se alarga"
+      "Jefes redibujados, y Kamil ahora deja una estela azul detrás",
+      "Avisos rediseñados: más claros y más suaves para la vista",
+      "El mismo poder ya no aparece varias veces seguidas",
+      "Corregido un cierre inesperado al salir con el botón atrás",
+      "Antes de un anuncio, Kamil hace una breve parada de combustible o reparación"
     ],
     "pt": [
-      "Controle por joystick: escolha tamanho, sensibilidade e posição",
-      "Novo visual: espaço azul-marinho, planetas, menu e ajustes renovados",
-      "A interface usa a cor da sua nave equipada",
-      "Botão voltar refeito, o jogo pergunta antes de sair",
-      "O rastro de fogo não se rompe mais quando fica longo"
+      "Chefes redesenhados, e Kamil agora deixa um rastro azul para trás",
+      "Alertas redesenhados: mais claros e mais suaves para os olhos",
+      "O mesmo poder não aparece mais várias vezes seguidas",
+      "Corrigido um travamento ao sair do jogo com o botão voltar",
+      "Antes de um anúncio, Kamil faz uma pausa rápida para combustível ou reparo"
     ],
     "ru": [
-      "Управление джойстиком: размер, чувствительность и положение",
-      "Новый вид: тёмно-синий космос, планеты, обновлённые меню и настройки",
-      "Интерфейс окрашивается в цвет твоего корабля",
-      "Кнопка «Назад» переработана, игра спрашивает перед выходом",
-      "Огненный след больше не обрывается, когда становится длинным"
+      "Боссы перерисованы, а Камиль теперь оставляет за собой синий след",
+      "Предупреждения переделаны: понятнее и мягче для глаз",
+      "Одна и та же сила больше не выпадает несколько раз подряд",
+      "Исправлен вылет при выходе из игры кнопкой «Назад»",
+      "Перед рекламой Камиль делает короткую остановку на заправку или ремонт"
     ],
     "ja": [
-      "ジョイスティック操作：サイズ・感度・位置を自由に設定",
-      "新デザイン：紺色の宇宙、惑星、メニューと設定を一新",
-      "UIの色が装備中の機体の色に変わります",
-      "戻るボタンを改善、終了前に確認を表示",
-      "炎の軌跡が長くなっても途切れないように修正"
+      "ボスを描き直し、カミルの後ろに青い軌跡が残るように",
+      "警告表示を一新：より分かりやすく、目に優しく",
+      "同じパワーが何度も続けて出ないように",
+      "戻るボタンで終了するときのクラッシュを修正",
+      "広告の前に、カミルが少しだけ給油か修理の休憩をとります"
     ]
   }
 }
